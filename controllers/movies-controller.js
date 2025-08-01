@@ -50,6 +50,7 @@ function show(req, res) {
     const formattedResult = {
       id: result[0].id,
       title: result[0].title,
+      abstract: result[0].abstract,
       director: result[0].director,
       genre: result[0].genre,
       release_year: result[0].release_year,
